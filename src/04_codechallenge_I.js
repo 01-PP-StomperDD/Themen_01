@@ -15,4 +15,7 @@ let sunnand =  parseFloat(prompt("Zahl?: "));
 let second =  parseFloat(prompt("Zahl?: "));
 let summe = sunnand + second;
 console.log("Die Summe der Zahlen ist", summe);
-
+In JavaScript werden Benutzereingaben mit prompt standardmäßig als Zeichenfolgen zurückgegeben. 
+Wenn Sie also zwei Zahlen eingeben, werden sie als Zeichenfolgen interpretiert, nicht als Zahlen. 
+Wenn Sie zwei Zeichenfolgen mit dem +-Operator verbinden, führt dies zur Konkatenierung der Zeichenfolgen, nicht zur Addition der Zahlen.
+Um die Zeichenfolgen in Zahlen umzuwandeln, können Sie die Funktion parseInt oder parseFloat verwenden. 
