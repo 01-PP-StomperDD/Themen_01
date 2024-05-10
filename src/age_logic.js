@@ -1,12 +1,14 @@
 let ageChris, ageDarma;
 const birthYearChris = 1980;
-const birthYearDarma = 1990;
+const birthYearDarma = 1890;
 
 // Berechnung Alter
-let year = 2024;
-ageJohn = year - birthYearChris;
-ageMark = year - birthYearDarma;
+let date = new Date();
+let year = date.getFullYear();
+ageChris = year - birthYearChris;
+ageDarma = year - birthYearDarma;
 
 // Ausgabe
-console.log("ageJohn: " + ageChris);
-console.log("ageMark: " + ageDarma);
+console.log("ageChris: " + ageChris);
+console.log("ageDarma: " + ageDarma);
+console.log("Datum" + date);
