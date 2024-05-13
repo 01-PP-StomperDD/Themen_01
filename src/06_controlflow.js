@@ -1,5 +1,7 @@
 // Entscheidungsstrukturen | control flow
 
+const { addAbortListener } = require("prompt");
+
 // Deklaration + Assignment
 const ageJohn = 30;
 const ageMark = 39;
@@ -29,3 +31,38 @@ console.log("------------------");
     } else if (isJohnEqual) { console.log("Sie sind gleich alt");
         
     } else {console.log("John ist jünger")}
+
+   
+
+    const firstName = "Chris";
+
+    let job;
+    job = "driver"
+    job = "diver"  
+    job = "artist"
+    job = "pilot" 
+    job = "teacher"
+    job = "instructor"
+
+    
+    
+
+    switch (job) {
+        case "driver":
+            console.log (firstName + ".. fährt Taxi");
+            break;
+        case "diver":
+            console.log (firstName + ".. taucht im Rhein.");
+            break;
+        case "artist":
+            console.log (firstName + ".. malt mit Kacke.");
+            break;
+        case "teacher":
+            console.log (firstName + ".. soll Bildung vermitteln.");
+            break;
+    
+        default:
+            console.log (firstName + ".. soll Bildung vermitteln.");
+            break;
+        
+    }
