@@ -58,4 +58,4 @@ function add(a,b) {
 function output(outputData) {
 	console.log(outputData);
 }
-  
+  Array
